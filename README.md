@@ -1,4 +1,4 @@
-# BrandonlinU\\CvsBundle
+# BrandonlinU\\CvsUpdaterBundle
 A Symfony 4 and 5 compatible bundle for running deployment tasks in a production or QA (Quality Assurance) environment 
 on an update of the source code with the help of webhooks, and the Symfony console.
 
