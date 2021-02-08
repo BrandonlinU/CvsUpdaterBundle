@@ -1,11 +1,11 @@
-# BrandonlinUCvsBundle
+# BrandonlinU\\CvsBundle
 A Symfony 4 and 5 compatible bundle for running deployment tasks in a production or QA (Quality Assurance) environment 
 on an update of the source code with the help of webhooks, and the Symfony console.
 
 ## Before you go
 This is a WIP (Work-In-Progress), so you must expect breaking changes with the release of a new version. This software
-will try to stick with the semversion conventions (trying to don't introduce backward-incompatible changes with the
-change of patch version), but I don't offer support for old versions.
+will try to stick with the semver conventions (trying to don't introduce backward-incompatible changes with the
+release of new patch version), but I don't provide support for old versions.
 
 ## Installation
 Make sure Composer is installed globally, as explained in the
@@ -39,7 +39,7 @@ in the `config/bundles.php` file of your project:
 
 return [
     // ...
-    BrandonlinU\CvsUpdaterBundler\BrandonlinUCvsUpdaterBundle::class => ['all' => true],
+    BrandonlinU\CvsUpdaterBundler\BrandonlinUCvsUpdaterBundle::class => ['prod' => true],
 ];
 ```
 
