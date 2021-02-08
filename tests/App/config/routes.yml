@@ -1,0 +1,2 @@
+brandonlinu_cvs_updater_routing:
+  resource: "@BrandonlinUCvsUpdaterBundle/Resources/config/routing/routing.xml"
